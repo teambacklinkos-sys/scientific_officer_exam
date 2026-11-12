@@ -9,8 +9,8 @@ const questions = [
   {
     id: 2,
     question: "The new state of Madhya Pradesh had a very short first ministry because its Chief Minister died within two months of taking office in November 1956. Who was he?",
-    options: ["Bhagwantrao Mandloi", "Kailash Nath Katju", "Pt. Ravishankar Shukla", "Dwarka Prasad Mishra"],
-    answer: 2,
+    options: ["Bhagwantrao Mandloi", "Kailash Nath Katju", "Dwarka Prasad Mishra", "Pt. Ravishankar Shukla"],
+    answer: 3,
     explanation: "Pt. Ravishankar Shukla was sworn in as the first Chief Minister of the new state but died on 31 December 1956. Bhagwantrao Mandloi then served briefly, followed by Kailash Nath Katju in 1957."
   },
   {
@@ -30,8 +30,8 @@ const questions = [
   {
     id: 5,
     question: "Rani Durgavati of the Garha-Mandla Gond kingdom died in 1564 while resisting a Mughal army. Which Mughal commander led that army?",
-    options: ["Adham Khan", "Asaf Khan", "Bairam Khan", "Raja Man Singh"],
-    answer: 1,
+    options: ["Adham Khan", "Raja Man Singh", "Bairam Khan", "Asaf Khan"],
+    answer: 3,
     explanation: "Akbar's governor of Kara-Manikpur, Khwaja Abdul Majid Asaf Khan, invaded Garha-Katanga. Rani Durgavati fought near Narrai Nala (Jabalpur) and took her own life rather than be captured. Her martyrdom day, 24 June, is observed in MP as Balidan Diwas."
   },
   {
@@ -44,8 +44,8 @@ const questions = [
   {
     id: 7,
     question: "The Bori incident of January 1949 in Raisen district, in which young protesters were shot while hoisting the tricolour, was part of which movement?",
-    options: ["Jhanda Satyagraha of Jabalpur", "Bhopal State merger (Vilinikaran) movement", "Jungle Satyagraha", "Quit India Movement"],
-    answer: 1,
+    options: ["Jhanda Satyagraha of Jabalpur", "Quit India Movement", "Jungle Satyagraha", "Bhopal State merger (Vilinikaran) movement"],
+    answer: 3,
     explanation: "After 1947 the Nawab of Bhopal resisted joining the Indian Union, and a popular merger (vilinikaran) agitation followed. Police firing at Bori on 14 January 1949 killed several young agitators. Bhopal finally merged with India on 1 June 1949."
   },
   {
@@ -65,8 +65,8 @@ const questions = [
   {
     id: 10,
     question: "What is the special significance of the Ashokan minor rock edict at Gujarra in Datia district?",
-    options: ["It is the only Ashokan inscription in Kharosthi script in central India", "It is one of the few edicts that name the emperor as 'Ashoka' instead of only 'Devanampiya Piyadasi'", "It describes the Kalinga war in detail", "It records the convening of the Third Buddhist Council"],
-    answer: 1,
+    options: ["It is the only Ashokan inscription in Kharosthi script in central India", "It records the convening of the Third Buddhist Council", "It describes the Kalinga war in detail", "It is one of the few edicts that name the emperor as 'Ashoka' instead of only 'Devanampiya Piyadasi'"],
+    answer: 3,
     explanation: "Most edicts call the emperor 'Devanampiya Piyadasi'. Gujarra, together with Maski, Nittur and Udegolam, actually uses the name Ashoka. The Kalinga war is described in Major Rock Edict XIII, not at Gujarra."
   },
   {
@@ -86,8 +86,8 @@ const questions = [
   {
     id: 13,
     question: "Dhupgarh, the highest point of Madhya Pradesh, lies in which range?",
-    options: ["Vindhya range", "Mahadeo hills of the Satpura range", "Maikal range", "Kaimur range"],
-    answer: 1,
+    options: ["Vindhya range", "Kaimur range", "Maikal range", "Mahadeo hills of the Satpura range"],
+    answer: 3,
     explanation: "Dhupgarh (about 1,350 m) is near Pachmarhi in the Mahadeo hills, part of the Satpura range in Narmadapuram district. The Maikal range in the east contains Amarkantak, the source of the Narmada."
   },
   {
@@ -107,8 +107,8 @@ const questions = [
   {
     id: 16,
     question: "India's only mechanised diamond mine, at Majhgawan in Panna district, is operated by which public sector undertaking?",
-    options: ["Hindustan Zinc Ltd", "NMDC Ltd", "Coal India Ltd", "MOIL Ltd"],
-    answer: 1,
+    options: ["NMDC Ltd", "Hindustan Zinc Ltd", "Coal India Ltd", "MOIL Ltd"],
+    answer: 0,
     explanation: "The Majhgawan diamond mine in Panna is operated by NMDC. The diamonds come from a kimberlite pipe, and Panna district is India's main source of diamonds. MOIL mines manganese ore in Balaghat and Chhindwara."
   },
   {
@@ -359,22 +359,22 @@ const questions = [
   {
     id: 52,
     question: "A hair recovered from a burglary scene has a continuous, ladder-like (uniserial) medulla with a medullary index of 0.6. What is it most likely to be?",
-    options: ["Human scalp hair", "Human pubic hair", "Synthetic fibre", "Animal hair"],
-    answer: 3,
+    options: ["Human scalp hair", "Animal hair", "Synthetic fibre", "Human pubic hair"],
+    answer: 1,
     explanation: "Medullary index is medulla diameter divided by shaft diameter. Human hairs usually have an index below about 1/3, with an absent or fragmentary medulla. Most animal hairs have an index of 0.5 or more and a continuous, often patterned medulla such as the ladder type seen in rabbit hair. Synthetic fibres have no medulla or cuticle."
   },
   {
     id: 53,
     question: "Only a naturally shed head hair with a club-shaped root and no tissue tag is recovered from a victim's hand. Which DNA analysis is most likely to succeed?",
-    options: ["Y-STR typing of the root", "ABO typing by absorption–elution", "Autosomal STR typing of the root", "Mitochondrial DNA sequencing of the shaft"],
-    answer: 3,
+    options: ["Y-STR typing of the root", "Mitochondrial DNA sequencing of the shaft", "Autosomal STR typing of the root", "ABO typing by absorption–elution"],
+    answer: 1,
     explanation: "A club root shows a telogen (resting) hair that has lost its nucleated root sheath, so nuclear STR typing usually fails. The keratinised shaft keeps many copies of mtDNA, which is why mtDNA sequencing of the HV1/HV2 regions is the method of choice. Anagen hairs with a sheath can give full STR profiles."
   },
   {
     id: 54,
     question: "For the diatom test to support ante-mortem drowning, which sample is preferred because diatoms can reach it only through a beating circulation?",
-    options: ["Femoral bone marrow", "Lung tissue", "Stomach contents", "Skin of the hands"],
-    answer: 0,
+    options: ["Lung tissue", "Femoral bone marrow", "Stomach contents", "Skin of the hands"],
+    answer: 1,
     explanation: "In ante-mortem drowning, diatoms in the inhaled water cross the alveolar wall and are carried by the circulation to distant organs such as bone marrow, kidney and brain. Lungs and stomach can take in diatoms passively after death, so finding them there is weak evidence. Diatoms are compared with a water sample from the suspected site."
   },
   {
@@ -401,8 +401,8 @@ const questions = [
   {
     id: 58,
     question: "Forest officials seize meat suspected to be from a Schedule I deer under the Wild Life (Protection) Act. What is the standard molecular approach to identify the species?",
-    options: ["Sequencing of mitochondrial cytochrome b or COI genes", "STR profiling with human multiplex kits", "Y-chromosome haplotyping", "HLA typing"],
-    answer: 0,
+    options: ["STR profiling with human multiplex kits", "Sequencing of mitochondrial cytochrome b or COI genes", "Y-chromosome haplotyping", "HLA typing"],
+    answer: 1,
     explanation: "Mitochondrial genes such as cytochrome b and COI vary between species but very little within a species. The sequence is compared against reference databases (GenBank, BOLD) to identify the species. Human STR kits are designed for human-specific primers, so they cannot do this."
   },
   {
@@ -436,8 +436,8 @@ const questions = [
   {
     id: 63,
     question: "Regression formulae such as those of Karl Pearson and Trotter–Gleser give the most reliable estimate of stature from which bone?",
-    options: ["Femur", "Clavicle", "Scapula", "Sternum"],
-    answer: 0,
+    options: ["Clavicle", "Femur", "Scapula", "Sternum"],
+    answer: 1,
     explanation: "Stature correlates most closely with the lengths of the lower-limb long bones, especially the femur and tibia. Formulae are population- and sex-specific, so Indian formulae should be used for Indian remains where they exist."
   },
   {

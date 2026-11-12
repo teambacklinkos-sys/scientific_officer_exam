@@ -2,8 +2,8 @@ const questions = [
   {
     id: 1,
     question: "The Bhimbetka rock shelters of Raisen district, a UNESCO World Heritage Site, were brought to scholarly attention in 1957 by which archaeologist?",
-    options: ["Vishnu Shridhar Wakankar", "H.D. Sankalia", "R.D. Banerji", "B.B. Lal"],
-    answer: 0,
+    options: ["B.B. Lal", "H.D. Sankalia", "R.D. Banerji", "Vishnu Shridhar Wakankar"],
+    answer: 3,
     explanation: "V.S. Wakankar noticed the rock formations from a train in 1957 and went on to document hundreds of painted shelters at Bhimbetka. The paintings span from the Mesolithic to the historical period. Bhimbetka was declared a World Heritage Site in 2003."
   },
   {
@@ -23,22 +23,22 @@ const questions = [
   {
     id: 4,
     question: "The Udayagiri caves near Vidisha, famous for the large relief of Varaha rescuing the earth, belong mainly to which period?",
-    options: ["Mauryan period, under Ashoka", "Gupta period, under Chandragupta II", "Paramara period, under Bhoja", "Chandela period, under Dhanga"],
-    answer: 1,
+    options: ["Mauryan period, under Ashoka", "Chandela period, under Dhanga", "Paramara period, under Bhoja", "Gupta period, under Chandragupta II"],
+    answer: 3,
     explanation: "The Udayagiri rock-cut caves were made in the early 5th century under Chandragupta II, as an inscription in Cave 6 records. The Varaha panel in Cave 5 is one of the finest examples of Gupta sculpture. They are different from the Jain Udayagiri caves of Odisha."
   },
   {
     id: 5,
     question: "Ujjain was the capital of which of the sixteen Mahajanapadas?",
-    options: ["Chedi", "Avanti", "Vatsa", "Kosala"],
-    answer: 1,
+    options: ["Chedi", "Kosala", "Vatsa", "Avanti"],
+    answer: 3,
     explanation: "Avanti had its northern capital at Ujjayini (Ujjain) and its southern centre at Mahishmati. Its ruler Chanda Pradyota was a contemporary of the Buddha. Chedi lay in the Bundelkhand region, while Vatsa (Kaushambi) and Kosala were in present-day Uttar Pradesh."
   },
   {
     id: 6,
     question: "Tatya Tope, a leading figure of the Revolt of 1857, was executed by the British in April 1859 at which place in Madhya Pradesh?",
-    options: ["Gwalior", "Shivpuri", "Jhansi border at Datia", "Sagar"],
-    answer: 1,
+    options: ["Gwalior", "Sagar", "Jhansi border at Datia", "Shivpuri"],
+    answer: 3,
     explanation: "Tatya Tope was betrayed by Man Singh of Narwar, tried by a military court and hanged at Shivpuri on 18 April 1859. He had carried on a long guerrilla campaign across central India after the fall of Gwalior. A memorial stands at Shivpuri."
   },
   {
@@ -51,8 +51,8 @@ const questions = [
   {
     id: 8,
     question: "The Jhanda (Flag) Satyagraha of 1923, in which nationalists insisted on hoisting the national flag on public buildings, began in which city of present-day Madhya Pradesh?",
-    options: ["Jabalpur", "Indore", "Bhopal", "Khandwa"],
-    answer: 0,
+    options: ["Khandwa", "Indore", "Bhopal", "Jabalpur"],
+    answer: 3,
     explanation: "The Flag Satyagraha began in Jabalpur in March 1923 when volunteers hoisted the tricolour on the Town Hall and were arrested. It then spread to Nagpur, where it became a major movement. Leaders included Pandit Sunderlal and Subhadra Kumari Chauhan."
   },
   {
@@ -387,8 +387,8 @@ const questions = [
   {
     id: 56,
     question: "A Barr body seen in the nucleus of a cell indicates that the cell has",
-    options: ["a Y chromosome", "lost one X chromosome", "an extra autosome", "at least two X chromosomes, as in a normal female"],
-    answer: 3,
+    options: ["a Y chromosome", "at least two X chromosomes, as in a normal female", "an extra autosome", "lost one X chromosome"],
+    answer: 1,
     explanation: "A Barr body is a condensed, inactivated X chromosome, and the number seen is one less than the number of X chromosomes. Normal females show one and normal males none. In neutrophils, the corresponding female marker is the drumstick appendage."
   },
   {
@@ -408,8 +408,8 @@ const questions = [
   {
     id: 59,
     question: "Viscose rayon is best described as",
-    options: ["a natural protein fibre", "a fully synthetic polyamide", "a mineral fibre", "a regenerated cellulose fibre"],
-    answer: 3,
+    options: ["a regenerated cellulose fibre", "a fully synthetic polyamide", "a mineral fibre", "a natural protein fibre"],
+    answer: 0,
     explanation: "Viscose rayon is made by dissolving cellulose from wood or cotton and spinning it again, so it is semi-synthetic. Nylon is a fully synthetic polyamide, wool and silk are natural protein fibres, and asbestos is a mineral fibre."
   },
   {
@@ -422,8 +422,8 @@ const questions = [
   {
     id: 61,
     question: "Some people leave much more DNA than others on objects they handle. This difference is described as a person's",
-    options: ["secretor status", "heteroplasmy", "allelic drop-in", "shedder status"],
-    answer: 3,
+    options: ["secretor status", "shedder status", "allelic drop-in", "heteroplasmy"],
+    answer: 1,
     explanation: "Shedder status describes how much DNA a person typically deposits by touch, which varies with skin condition, sweat and habits. It is one reason touch-DNA results must be interpreted cautiously. Secretor status concerns blood-group antigens in body fluids."
   },
   {
@@ -443,8 +443,8 @@ const questions = [
   {
     id: 64,
     question: "Cells in a stain stain dark brown with Lugol's iodine because they are rich in glycogen. Such cells most likely come from",
-    options: ["the buccal epithelium", "the skin", "the urinary tract", "the vaginal epithelium"],
-    answer: 3,
+    options: ["the vaginal epithelium", "the skin", "the urinary tract", "the buccal epithelium"],
+    answer: 0,
     explanation: "Vaginal squamous cells of women of reproductive age are rich in glycogen and stain brown with iodine. Buccal and skin cells contain far less. The test is presumptive, because some other epithelial cells also store glycogen."
   },
   {
@@ -1048,7 +1048,7 @@ const questions = [
     options: ["the court must be able to understand and test the basis of the opinion", "the law requires every report to recommend a verdict", "the defence is not allowed to question the expert", "the laboratory is paid according to report length"],
     answer: 0,
     explanation: "Expert opinion assists the court, which must weigh it, so the report should set out the methods, observations, reasoning and limitations, including match probabilities where relevant. The expert does not decide guilt. Transparency also allows the opinion to be tested in cross-examination."
-  },
+  }
 ];
 
 export default questions;

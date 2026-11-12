@@ -30,8 +30,8 @@ const questions = [
   {
     id: 5,
     question: "Rani Durgavati of the Gond kingdom of Garha-Mandla died in 1564 while fighting the forces of which Mughal general?",
-    options: ["Adham Khan", "Bairam Khan", "Abdullah Khan Uzbek", "Asaf Khan"],
-    answer: 3,
+    options: ["Adham Khan", "Bairam Khan", "Asaf Khan", "Abdullah Khan Uzbek"],
+    answer: 2,
     explanation: "Akbar's governor of Kara-Manikpur, Khwaja Abdul Majid Asaf Khan, invaded Garha-Mandla in 1564. Rani Durgavati fought near Narrai Nala between Jabalpur and Mandla and took her own life rather than be captured. Adham Khan had led the 1561 Mughal campaign against Baz Bahadur of Malwa."
   },
   {
@@ -359,15 +359,15 @@ const questions = [
   {
     id: 52,
     question: "An adult pelvis recovered from a well shows a wide, U-shaped subpubic angle of about 100°, a wide greater sciatic notch and a preauricular sulcus. The remains most likely belong to",
-    options: ["an adult male", "an adult female", "a pre-pubertal child of either sex", "a male with a pelvic fracture"],
-    answer: 1,
+    options: ["an adult male", "a male with a pelvic fracture", "a pre-pubertal child of either sex", "an adult female"],
+    answer: 3,
     explanation: "A subpubic angle above about 90° (U-shaped), a wide greater sciatic notch and a well-marked preauricular sulcus are typical female traits. Males show a narrow V-shaped subpubic angle (about 60–70°) and a narrow sciatic notch. These features develop only after puberty."
   },
   {
     id: 53,
     question: "The Phenice method of sex estimation examines the ventral arc, subpubic concavity and medial aspect of the ischiopubic ramus. These features are on which bone?",
-    options: ["Os pubis", "Ilium", "Sacrum", "Calcaneus"],
-    answer: 0,
+    options: ["Calcaneus", "Ilium", "Sacrum", "Os pubis"],
+    answer: 3,
     explanation: "Phenice (1969) described three features of the os pubis: a ventral arc and a subpubic concavity, both present in females, and a narrow ischiopubic ramus ridge, also female. It is simple, quick and highly accurate when the pubic bone is intact."
   },
   {
@@ -1048,7 +1048,7 @@ const questions = [
     options: ["Photograph, map and record the position of the bones before lifting them", "Wash the bones on site to remove soil", "Pack all bones together in one plastic bag", "Remove the skull first to begin identification"],
     answer: 0,
     explanation: "Recovery follows archaeological methods: the scene is photographed, gridded and mapped so that the position of each bone, any insects and the surrounding soil are recorded. Bones are then lifted, packed separately in paper and labelled. Washing on site can destroy trace evidence and DNA."
-  },
+  }
 ];
 
 export default questions;
