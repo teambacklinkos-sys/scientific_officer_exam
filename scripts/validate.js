@@ -10,7 +10,7 @@ const files = readdirSync(dir).filter(f => f.endsWith('.js')).sort()
 const seen = new Map()
 let errors = 0
 
-const norm = s => s.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim()
+const norm = s => s.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim()
 
 for (const file of files) {
   const { default: qs } = await import(pathToFileURL(join(dir, file)))
@@ -25,7 +25,7 @@ for (const file of files) {
       if (q.id !== i + 1) problems.push(`${at}: id is ${q.id}`)
       if (typeof q.question !== 'string' || !q.question.trim()) problems.push(`${at}: empty question`)
       if (!Array.isArray(q.options) || q.options.length !== 4) problems.push(`${at}: needs 4 options`)
-      else if (new Set(q.options.map(norm)).size !== 4) problems.push(`${at}: duplicate options`)
+      else if (new Set(q.options.map(o => String(o).trim().replace(/\s+/g, ' '))).size !== 4) problems.push(`${at}: duplicate options`)
       if (![0, 1, 2, 3].includes(q.answer)) problems.push(`${at}: answer ${q.answer} not 0-3`)
       else spread[q.answer]++
       if (typeof q.explanation !== 'string' || q.explanation.length < 40) problems.push(`${at}: explanation missing or too short`)
